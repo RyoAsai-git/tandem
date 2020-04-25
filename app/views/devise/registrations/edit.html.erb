@@ -1,5 +1,5 @@
 <div class='userEditPage'>
-  <div class='header'>アカウント編集</div>
+  <div class='header'></div>
   <div class='container'>
     <%= form_for current_user, url: registration_path(current_user) do |f| %>
       <div class="form-group">
@@ -11,19 +11,12 @@
         <%= f.text_area :self_introduction, class: "form-control" %>
       </div>
       <div class="form-group">
-        性別:
-        <%= f.label '男' %>
-        <%= f.radio_button :sex, :男 %>
-        <%= f.label '女' %>
-        <%= f.radio_button :sex, :女 %>
-      </div>
-      <div class="form-group">
         画像:
         <%= f.file_field :img_name %>
       </div>
 
       <div class="form-group">
-        <%= f.label '更新するにはパスワードを入力してください' %>
+        <%= f.label '編集にはパスワードが必要です' %>
         <%= f.password_field :current_password, class: "form-control", autocomplete: "off" %>
       </div>
       <div class="text-center">
