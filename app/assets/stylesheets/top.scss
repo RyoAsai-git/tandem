@@ -59,7 +59,9 @@
 
 
 // Portfolio Grid 
-
+h2 {
+  color: #2d373b
+}
 .img-fluid2 {
   height: 100%;
   width: 100%;
@@ -121,7 +123,8 @@
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  background-color: white;
+  color: black;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -221,6 +224,11 @@
   background-color: #212529;
 }
 
+h3 {
+  color: #2d373b;
+}
+
+%aa
 
 .container {
   margin-top: 20px;
@@ -411,6 +419,7 @@
   }
 }
 
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -507,4 +516,11 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.top_container-footer {
+  background-size: cover;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 20px;
+  // width: 730px;
 }
