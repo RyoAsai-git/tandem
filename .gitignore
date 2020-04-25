@@ -27,3 +27,6 @@
 /config/master.key
 
 public/uploads/
+
+db/dummy_img
+
