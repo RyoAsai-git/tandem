@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#edit .container #edit-row #edit-column #edit-box {
+  margin-top: 60px;
+  max-width: 600px;
+  height: 500px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+  position: absolute;
+  
+
+}
+#edit .container #edit-row #edit-column #edit-box #edit-form {
+  padding: 20px;
+}
+#edit .container #edit-row #edit-column #edit-box #edit-form #register-link {
+  margin-top: -85px;
+}
+
+.jumbotron_edit { background:url(edit.jpg) center no-repeat; background-size: cover; height: 100vh;}
