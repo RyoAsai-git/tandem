@@ -39,3 +39,35 @@ User.create!(
   sex: 1,
   img_name: open("#{Rails.root}/db/dummy_img/4.jpg")
 )
+User.create!(
+  email: 'user9@example.com',
+  password: 'aaaaaaaa',
+  name: 'ブライアン',
+  self_introduction: 'ブライアンです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/9.jpg")
+)
+User.create!(
+  email: 'user6@example.com',
+  password: 'aaaaaaaa',
+  name: 'ケイト',
+  self_introduction: 'ケイトです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/6.jpg")
+)
+User.create!(
+  email: 'user7@example.com',
+  password: 'aaaaaaaa',
+  name: 'エイミー',
+  self_introduction: 'エイミーです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/7.jpg")
+)
+User.create!(
+  email: 'user8@example.com',
+  password: 'aaaaaaaa',
+  name: 'サラ',
+  self_introduction: 'サラです',
+  sex: 1,
+  img_name: open("#{Rails.root}/db/dummy_img/8.jpg")
+)
