@@ -40,7 +40,7 @@
     .message {
       margin-top: 24px;
       &__name {
-        color: #45494B;
+        color: #f1f1f1;
       }
       &__text {
         position: relative;
@@ -63,10 +63,10 @@
         }
       }
       &_current_user {
-        background: #fd5068;
+        background: #ffa733;
         color: #fff;
         &:before {
-          border-right: 10px solid #fd5068;
+          border-right: 10px solid #ffa733;
         }
       }
     }
