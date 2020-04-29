@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #e8e8e8;
+
     .linkToMatching {
       width: 30px;
       height: 30px;
@@ -40,7 +40,7 @@
     .message {
       margin-top: 24px;
       &__name {
-        color: #45494B;
+        color: #f1f1f1;
       }
       &__text {
         position: relative;
@@ -59,14 +59,14 @@
           left: -20px;
           margin-top: -10px;
           border: 10px solid transparent;
-          border-right: 10px solid #f1f1f1;
+     
         }
       }
       &_current_user {
-        background: #fd5068;
+        background: #ffa733;
         color: #fff;
         &:before {
-          border-right: 10px solid #fd5068;
+          border-right: 10px solid #ffa733;
         }
       }
     }
@@ -74,12 +74,14 @@
   .messageInputForm {
     position: fixed;
     bottom:0;
-    border-top: 1px solid #e8e8e8;
+
     padding: 30px 0;
     width: 100%;
     &_input {
       width: 100%;
       border: none;
+      height: 100%;
+      margin-bottom: 15px;
     }
   }
 }
