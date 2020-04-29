@@ -12,7 +12,9 @@
               <div class="card-header align-items-center d-flex">
                   <strong><%= user.name %></strong>
               </div>
-              <%= image_tag user.img_name.url, class: "card-img-top" %>
+              <%= link_to (matching_path(user.id)) do %>
+                <%= image_tag user.img_name.url, class: "card-img-top" %>
+              <% end %>
               <div class="card-body">
                 <span><strong><%= user.self_introduction %></strong></span>
                 <div class="row parts">
