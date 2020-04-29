@@ -18,6 +18,10 @@
               <div class="card-body">
                 <span><strong><%= user.self_introduction %></strong></span>
                 <div class="row parts">
+                  <%= form_tag :chat_index, method: :post do %>
+                    <input name="user_id" type="hidden" value="<%= user.id %>" />
+                    <%= submit_tag 'チャットを開く', class: "chatForm_btn" %>
+                  <% end %>
                   <%= link_to "", "#", class: "love" %>
                   <%= link_to "", "#", class: "comment" %>
                 </div>
@@ -27,7 +31,8 @@
                   <div class="row parts">
                     <form action="#" class="w-100">
                       <div>
-                        <textarea class="form-control comment-input border-0" placeholder="コメント..." rows="1"></textarea>
+
+                        <%# <textarea class="form-control comment-input border-0" placeholder="コメント..." rows="1"></textarea> %>
                       </div>
                     </form>
                   </div>
