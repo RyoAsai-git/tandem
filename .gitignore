@@ -26,7 +26,7 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# public/uploads/
+public/uploads/
 
-# db/dummy_img
+db/dummy_img
 
